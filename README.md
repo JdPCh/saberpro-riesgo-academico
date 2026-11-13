@@ -8,7 +8,7 @@ Proyecto final del curso **Computación 3: Introducción a la Analítica de Dato
 
 | Recurso | Enlace |
 |---|---|
-| Aplicación web (Streamlit) | _ |
+| Aplicación web (Streamlit) | https://saberpro-riesgo-academico.streamlit.app/ |
 | Video de 3 minutos | _ |
 | Informe (formato IEEE) | `informe/Informe_SaberPro.docx` |
 
