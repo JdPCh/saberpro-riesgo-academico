@@ -1,0 +1,17 @@
+Categoría,Variable,Población %,Muestra %,Diferencia (pp)
+F,estu_genero,59.03,59.08,0.05
+M,estu_genero,40.96,40.92,-0.04
+,estu_genero,0.01,0.0,-0.01
+NO OFICIAL - CORPORACIÓN,inst_origen,35.22,35.23,0.01
+NO OFICIAL - FUNDACIÓN,inst_origen,31.32,31.24,-0.08
+OFICIAL DEPARTAMENTAL,inst_origen,15.35,15.26,-0.09
+OFICIAL MUNICIPAL,inst_origen,2.17,2.17,0.0
+OFICIAL NACIONAL,inst_origen,15.88,16.03,0.15
+REGIMEN ESPECIAL,inst_origen,0.07,0.06,-0.01
+INSTITUCIÓN TECNOLÓGICA,inst_caracter_academico,1.75,1.74,-0.01
+INSTITUCIÓN UNIVERSITARIA,inst_caracter_academico,35.9,35.86,-0.04
+TÉCNICA PROFESIONAL,inst_caracter_academico,2.03,2.06,0.03
+UNIVERSIDAD,inst_caracter_academico,60.32,60.34,0.02
+DISTANCIA,estu_metodo_prgm,15.61,15.55,-0.06
+DISTANCIA VITUAL,estu_metodo_prgm,6.27,6.3,0.03
+PRESENCIAL,estu_metodo_prgm,78.12,78.15,0.03

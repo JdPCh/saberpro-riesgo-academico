@@ -1,0 +1,17 @@
+variable,caida_auc,desv
+estu_depto_reside,0.0352,0.0016
+edad,0.0338,0.0015
+inst_caracter_academico,0.0274,0.0018
+estu_nucleo_pregrado,0.0176,0.0023
+inst_origen,0.0154,0.0009
+estu_metodo_prgm,0.0093,0.0014
+estu_valormatriculauniversidad,0.0089,0.0014
+estu_horassemanatrabaja,0.0082,0.0001
+fami_estratovivienda,0.0041,0.0009
+fami_educacionmadre,0.0031,0.0012
+fami_tienecomputador,0.0027,0.0003
+estu_genero,0.002,0.0008
+fami_educacionpadre,0.002,0.0005
+fami_tieneinternet,0.0018,0.0006
+fami_tienelavadora,0.0008,0.0006
+fami_tieneautomovil,0.0002,0.0002

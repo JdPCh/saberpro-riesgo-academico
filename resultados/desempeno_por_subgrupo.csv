@@ -1,0 +1,15 @@
+variable,grupo,n,AUC,riesgo_real,prob_media
+estu_genero,F,18422,0.776,0.274,0.28
+estu_genero,M,12571,0.772,0.212,0.211
+inst_origen,NO OFICIAL - CORPORACIÓN,11060,0.751,0.294,0.296
+inst_origen,NO OFICIAL - FUNDACIÓN,9772,0.766,0.211,0.218
+inst_origen,OFICIAL DEPARTAMENTAL,4645,0.803,0.237,0.233
+inst_origen,OFICIAL MUNICIPAL,664,0.817,0.179,0.196
+inst_origen,OFICIAL NACIONAL,4840,0.807,0.244,0.247
+fami_estratovivienda,Estrato 1,5387,0.751,0.366,0.381
+fami_estratovivienda,Estrato 2,10410,0.752,0.27,0.268
+fami_estratovivienda,Estrato 3,9358,0.753,0.197,0.202
+fami_estratovivienda,Estrato 4,2795,0.809,0.135,0.143
+fami_estratovivienda,Estrato 5,1025,0.769,0.12,0.116
+fami_estratovivienda,Estrato 6,537,0.795,0.112,0.107
+fami_estratovivienda,Sin Estrato,129,0.831,0.45,0.391

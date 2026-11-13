@@ -1,0 +1,19 @@
+{
+  "modelo": "Gradient Boosting (Hist)",
+  "n_muestra": 154984,
+  "n_train": 123987,
+  "n_test": 30997,
+  "umbral_q1_puntaje": 129.25,
+  "riesgo_base_train": 0.2506149838289498,
+  "roc_auc_test": 0.7772146831871575,
+  "pr_auc_test": 0.5283956088375916,
+  "umbral_clasificacion": 0.2636115179254989,
+  "precision_riesgo": 0.43443593589642376,
+  "recall_riesgo": 0.7136558163662301,
+  "TN": 16122,
+  "FP": 7164,
+  "FN": 2208,
+  "TP": 5503,
+  "corte_bajo": 0.13,
+  "corte_alto": 0.5
+}

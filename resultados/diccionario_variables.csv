@@ -1,0 +1,23 @@
+Variable,Rol,Tipo,Nulos (%),Categorías distintas
+estu_genero,Predictor categórico,categórico,0.0,2.0
+estu_depto_reside,Predictor categórico,categórico,0.2,34.0
+fami_estratovivienda,Predictor categórico,categórico,4.4,7.0
+fami_educacionpadre,Predictor categórico,categórico,3.2,12.0
+fami_educacionmadre,Predictor categórico,categórico,3.3,12.0
+fami_tieneinternet,Predictor categórico,categórico,3.8,2.0
+fami_tienecomputador,Predictor categórico,categórico,5.2,2.0
+fami_tieneautomovil,Predictor categórico,categórico,6.2,2.0
+fami_tienelavadora,Predictor categórico,categórico,5.5,2.0
+estu_horassemanatrabaja,Predictor categórico,categórico,4.5,5.0
+estu_valormatriculauniversidad,Predictor categórico,categórico,0.5,8.0
+estu_metodo_prgm,Predictor categórico,categórico,0.0,3.0
+inst_caracter_academico,Predictor categórico,categórico,0.0,4.0
+inst_origen,Predictor categórico,categórico,0.0,6.0
+estu_nucleo_pregrado,Predictor categórico,categórico,0.0,56.0
+edad,Predictor numérico (derivado de la fecha de nacimiento),numérico,0.1,
+mod_razona_cuantitat_punt,Insumo del puntaje compuesto (no es predictor),numérico,0.0,
+mod_lectura_critica_punt,Insumo del puntaje compuesto (no es predictor),numérico,0.0,
+mod_ingles_punt,Insumo del puntaje compuesto (no es predictor),numérico,0.0,
+mod_competen_ciudada_punt,Insumo del puntaje compuesto (no es predictor),numérico,0.0,
+puntaje_compuesto,Derivada: promedio de los 4 módulos,numérico,0.0,
+periodo,Estratificación y partición,categórico,0.0,6.0

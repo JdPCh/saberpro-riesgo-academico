@@ -1,0 +1,24 @@
+categoria,variable,n,tasa_riesgo
+Estrato 1,fami_estratovivienda,26669,0.381
+Estrato 2,fami_estratovivienda,52346,0.267
+Estrato 3,fami_estratovivienda,46451,0.199
+Estrato 4,fami_estratovivienda,14243,0.137
+Estrato 5,fami_estratovivienda,5002,0.112
+Estrato 6,fami_estratovivienda,2750,0.098
+Sin Estrato,fami_estratovivienda,705,0.441
+NO OFICIAL - CORPORACIÓN,inst_origen,54601,0.299
+NO OFICIAL - FUNDACIÓN,inst_origen,48420,0.214
+OFICIAL DEPARTAMENTAL,inst_origen,23653,0.231
+OFICIAL MUNICIPAL,inst_origen,3366,0.182
+OFICIAL NACIONAL,inst_origen,24847,0.241
+REGIMEN ESPECIAL,inst_origen,97,0.268
+DISTANCIA,estu_metodo_prgm,24103,0.454
+DISTANCIA VITUAL,estu_metodo_prgm,9764,0.354
+PRESENCIAL,estu_metodo_prgm,121117,0.201
+No,fami_tieneinternet,16686,0.41
+Si,fami_tieneinternet,132430,0.226
+0,estu_horassemanatrabaja,25553,0.162
+Entre 11 y 20 horas,estu_horassemanatrabaja,25774,0.275
+Entre 21 y 30 horas,estu_horassemanatrabaja,20448,0.259
+Menos de 10 horas,estu_horassemanatrabaja,20197,0.299
+Más de 30 horas,estu_horassemanatrabaja,56092,0.251
