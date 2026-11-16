@@ -5,6 +5,7 @@ Proyecto final del curso **Computación 3: Introducción a la Analítica de Dato
 **Autores**
 - Joshua Esteban Martínez Carvajal (160004319)
 - Cristian Camilo Soto Robles (160004838)
+- Jesús David Peña Chivatá (160004828)
 
 | Recurso | Enlace |
 |---|---|
@@ -67,7 +68,7 @@ Muestra de 154.984 registros: 123.987 para entrenamiento y 30.997 para prueba.
 
 **Equidad:** el desempeño es similar entre mujeres y hombres (AUC 0,776 y 0,772). Es algo menor en estratos 1 a 3 y en instituciones privadas (AUC cercano a 0,75) y mayor en estrato 4 y en instituciones oficiales (AUC cercano a 0,80). Los grupos con pocos casos (por ejemplo, "Sin Estrato") deben leerse con cautela.
 
-Los niveles **Bajo / Medio / Alto** de la aplicación se definen por riesgo relativo: Bajo cuando la probabilidad es menor o igual a la mitad del riesgo promedio, y Alto cuando es mayor o igual al doble. Su verificación en el conjunto de prueba está en `resultados/niveles_de_riesgo_test.csv`.
+Los niveles **Bajo / Medio / Alto** de la aplicación conservan los cortes guardados en el artefacto: Bajo si `p < 0.13`, Medio si `0.13 <= p < 0.50` y Alto si `p >= 0.50`. Su verificación en el conjunto de prueba está en `resultados/niveles_de_riesgo_test.csv`.
 
 ## 5. Estructura del repositorio
 
@@ -93,6 +94,18 @@ Los niveles **Bajo / Medio / Alto** de la aplicación se definen por riesgo rela
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+La interfaz está diseñada para escritorio (1366–1920 px). **Evaluar perfil** reúne los 16 predictores en cuatro grupos; las categorías se obtienen del artefacto sin cambiar su codificación. No hay respuestas preseleccionadas y la edad admite enteros entre 16 y 70 años. Al calcular, se conservan las respuestas y se muestra la probabilidad junto con los niveles de riesgo y la referencia histórica de entrenamiento.
+
+Las pestañas **Hallazgos del modelo** y **Acerca del proyecto** presentan las tablas y figuras originales y el contexto académico. Los cambios en un formulario ya calculado requieren pulsar de nuevo **Calcular riesgo** para actualizar la estimación.
+
+La presentación se organiza en `app.py`, `profile_model.py`, `styles.css` y `.streamlit/config.toml`. No se necesitan servicios externos ni dependencias adicionales de interfaz.
+
+**Pruebas de regresión y flujo de Streamlit:**
+
+```bash
+python -m unittest discover -s tests -v
 ```
 
 ## 7. Limitaciones y uso responsable
