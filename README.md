@@ -10,7 +10,7 @@ Proyecto final del curso **Computación 3: Introducción a la Analítica de Dato
 |---|---|
 | Aplicación web (Streamlit) | https://saberpro-riesgo-academico.streamlit.app/ |
 | Video de 3 minutos | _ |
-| Informe (formato IEEE) | `informe/Informe_SaberPro.docx` |
+| Informe (formato IEEE) | [Consultar PDF](informe/Informe_SaberPro.pdf) |
 
 ---
 
@@ -81,7 +81,7 @@ Los niveles **Bajo / Medio / Alto** de la aplicación se definen por riesgo rela
 ├── figs/                      Figuras del informe
 ├── resultados/                Tablas y métricas en CSV y JSON
 └── informe/
-    └── Informe_SaberPro.docx
+    └── Informe_SaberPro.pdf
 ```
 
 ## 6. Cómo reproducirlo
